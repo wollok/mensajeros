@@ -17,11 +17,11 @@ Del paquete conocemos su destino y si está pago o no. Puede entregarse cuando e
 
 **Tests**
 Realizar una serie de tests, donde se prueben las diferentes situaciones, entre ellas:
-- Que roberto (90kg) puede llevar un paquete que está pago en un camión que tiene un acoplado.
+- Que roberto (90kg) puede llevar un paquete que está pago en un camión que tiene un acoplado al puente de Brooklyn.
 - Que neo con crédito no puede llevar un paquete que no está pago a la matrix.
 
 ## Segunda parte: Empresa de mensajería 
-Ahora aparece una empresa de mensajería. Esta tiene un conjunto de mensajeros, los cuales podrían ser Roberto, Chuck y Neo. 
+Ahora aparece una empresa de mensajería. Esta tiene una colección de mensajeros, los cuales podrían ser Roberto, Chuck y Neo. 
 
 Se necesita poder hacer:
 - contratar a un mensajero
@@ -38,7 +38,7 @@ Nuevos requerimientos para la mensajería, se necesita saber:
 - Si el paquete puede ser entregado por la empresa de mensajería, es decir, si al menos uno de sus mensajeros puede entregar el paquete.
 - Si para la mensajería el paquete es fácil. El paquete es fácil cuando cualquiera de sus mensajeros puede entregarlo.
 - Saber los mensajeros candidatos de una mensajería para llevar un paquete, es decir, aquellos mensajeros que son capaces de llevar el paquete.
-- Saber si una mensajería tiene sobrepeso. Esto sucede si el promedio del peso de los mensajeros es superior a 500 Kg (Nota: Para el peso de Roberto se cuenta el transporte).
+- Saber si una mensajería tiene sobrepeso. Esto sucede si el promedio del peso de los mensajeros es superior a 500 Kg (Nota: Para el peso de Roberto también se cuenta el transporte).
 - Hacer que la empresa de mensajería envíe el paquete. Para ello elige cualquier mensajero entre los que pueden enviarlo, y registra que fue enviado. En el caso de no haber nadie para enviarlo, debe informarse con un error descriptivo.
 
 Cada punto debe tener mínimo un test
