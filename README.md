@@ -1,4 +1,7 @@
 # Mensajeros de Película
+ 
+[![Build Status](https://travis-ci.org/wollok/mensajeros.svg?branch=master)](https://travis-ci.org/wollok/mensajeros)
+
 
 ## Primera parte: Destinos y mensajeros
 Desarrollar y probar un programa que me permita saber si mi paquete puede ser entregado por un mensajero. 
